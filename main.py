@@ -11,7 +11,5 @@ print(immutable_var)
 #   - Измените элементы списка mutable_list.
 #   - Выведите на экран измененный список mutable_list
 mutable_list = [0, 1, 2]
-mutable_list[0] = 11
-mutable_list[1] = 22
-mutable_list[2] = 33
+mutable_list[:] = [11, 22, 33]
 print(mutable_list)
